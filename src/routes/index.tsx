@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import logo from "@/assets/logo.webp.asset.json";
 import { Phone, PartyPopper, Baby, Heart, Sparkles, Cake, Gift } from "lucide-react";
 import f005 from "@/assets/festa_005.webp.asset.json";
 import f006 from "@/assets/festa_006.webp.asset.json";
@@ -10,7 +11,7 @@ import f011 from "@/assets/festa_011.webp.asset.json";
 import f012 from "@/assets/festa_012.webp.asset.json";
 import f013 from "@/assets/festa_013.webp.asset.json";
 
-const BRAND = "Encanto Festas";
+const BRAND = "Donna Valentina Decor";
 const PHONE = "(15) 9 8114-8383";
 const WHATS = "https://wa.me/5515981148383?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20decora%C3%A7%C3%A3o";
 
@@ -54,7 +55,7 @@ function Index() {
     <div className="min-h-screen">
       <header className="sticky top-0 z-20 border-b bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
-          <span className="font-display text-2xl font-semibold text-primary">{BRAND}</span>
+          <img src={logo.url} alt={BRAND} className="h-16 w-16 rounded-full object-cover" />
           <nav className="hidden gap-6 text-sm md:flex">
             <a href="#servicos" className="hover:text-primary">Serviços</a>
             <a href="#galeria" className="hover:text-primary">Galeria</a>
