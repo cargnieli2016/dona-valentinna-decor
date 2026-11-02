@@ -1,15 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logo from "@/assets/logo.webp.asset.json";
+import logo from "@/assets/0001.webp";
 import { Phone, PartyPopper, Baby, Heart, Sparkles, Cake, Gift } from "lucide-react";
-import f005 from "@/assets/festa_005.webp.asset.json";
-import f006 from "@/assets/festa_006.webp.asset.json";
-import f007 from "@/assets/festa_007.webp.asset.json";
-import f008 from "@/assets/festa_008.webp.asset.json";
-import f009 from "@/assets/festa_009.webp.asset.json";
-import f010 from "@/assets/festa_010.webp.asset.json";
-import f011 from "@/assets/festa_011.webp.asset.json";
-import f012 from "@/assets/festa_012.webp.asset.json";
-import f013 from "@/assets/festa_013.webp.asset.json";
+import f005 from "@/assets/005.webp";
+import f006 from "@/assets/006.webp";
+import f007 from "@/assets/007.webp";
+import f008 from "@/assets/008.webp";
+import f009 from "@/assets/009.webp";
+import f010 from "@/assets/010.webp";
+import f011 from "@/assets/011.webp";
+import f012 from "@/assets/012.webp";
+import f013 from "@/assets/013.webp";
 
 const BRAND = "Donna Valentina Decor";
 const PHONE = "(15) 9 8114-8383";
@@ -39,15 +39,15 @@ const services = [
 ];
 
 const gallery = [
-  { src: f005.url, t: "Gatinha Marie" },
-  { src: f006.url, t: "Bluey" },
-  { src: f009.url, t: "Chá de Bebê Ursinho" },
-  { src: f008.url, t: "Astronauta" },
-  { src: f007.url, t: "Bonequinha" },
-  { src: f010.url, t: "Arca de Noé" },
-  { src: f011.url, t: "Homem-Aranha" },
-  { src: f012.url, t: "Brasil" },
-  { src: f013.url, t: "Piquenique ao ar livre" },
+  { src: f005, t: "Gatinha Marie" },
+  { src: f006, t: "Bluey" },
+  { src: f009, t: "Chá de Bebê Ursinho" },
+  { src: f008, t: "Astronauta" },
+  { src: f007, t: "Bonequinha" },
+  { src: f010, t: "Arca de Noé" },
+  { src: f011, t: "Homem-Aranha" },
+  { src: f012, t: "Brasil" },
+  { src: f013, t: "Piquenique ao ar livre" },
 ];
 
 function Index() {
@@ -55,7 +55,7 @@ function Index() {
     <div className="min-h-screen">
       <header className="sticky top-0 z-20 border-b bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
-          <img src={logo.url} alt={BRAND} className="h-24 w-24 rounded-full object-cover" />
+          <img src={logo} alt={BRAND} className="h-24 w-24 rounded-full object-cover" />
           <nav className="hidden gap-6 text-sm md:flex">
             <a href="#servicos" className="hover:text-primary">Serviços</a>
             <a href="#galeria" className="hover:text-primary">Galeria</a>
@@ -86,8 +86,8 @@ function Index() {
           </div>
         </div>
         <div className="grid grid-cols-2 gap-3">
-          <img src={f009.url} alt="Decoração chá de bebê ursinho" className="aspect-[3/4] w-full rounded-2xl object-cover shadow-xl" />
-          <img src={f005.url} alt="Decoração infantil rosa" className="mt-10 aspect-[3/4] w-full rounded-2xl object-cover shadow-xl" />
+          <img src={f009} alt="Decoração chá de bebê ursinho" className="aspect-[3/4] w-full rounded-2xl object-cover shadow-xl" />
+          <img src={f005} alt="Decoração infantil rosa" className="mt-10 aspect-[3/4] w-full rounded-2xl object-cover shadow-xl" />
         </div>
       </section>
 

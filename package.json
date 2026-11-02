@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
+    "build:github-pages": "vite build --config vite.config.github-pages.ts",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
+    "preview:github-pages": "vite preview --config vite.config.github-pages.ts",
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "vitest run",
