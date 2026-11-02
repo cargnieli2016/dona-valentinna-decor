@@ -55,7 +55,7 @@ function Index() {
     <div className="min-h-screen">
       <header className="sticky top-0 z-20 border-b bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3">
-          <img src={logo.url} alt={BRAND} className="h-16 w-16 rounded-full object-cover" />
+          <img src={logo.url} alt={BRAND} className="h-24 w-24 rounded-full object-cover" />
           <nav className="hidden gap-6 text-sm md:flex">
             <a href="#servicos" className="hover:text-primary">Serviços</a>
             <a href="#galeria" className="hover:text-primary">Galeria</a>
